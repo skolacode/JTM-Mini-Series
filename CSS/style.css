@@ -1,0 +1,15 @@
+h1 {
+  font-size: 40px;
+  color: aqua;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.content {
+  font-size: 18px;
+  color: grey;
+}
+
+#desc {
+  font-size: 12px;
+  color: blue;
+}
