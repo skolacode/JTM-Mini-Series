@@ -7,6 +7,31 @@ h1 {
 .content {
   font-size: 18px;
   color: grey;
+
+  animation: jtm_style 3s linear;
+}
+
+@keyframes jtm_style {
+  0% {
+    margin-left: 0px;
+  }
+
+  25% {
+    margin-left: 30px;
+    transform: rotate(30deg);
+  }
+
+  75% {
+    margin-left: 130px;
+    transform: rotate(30deg);
+    color: yellow;
+    font-size: 30px;
+  }
+
+  100% {
+    margin-left: 0px;
+    transform: rotate(-360deg);
+  }
 }
 
 #desc {
