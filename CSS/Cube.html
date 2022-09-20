@@ -16,6 +16,17 @@
 
       height: 110vh;
       transform-style: preserve-3d;
+
+      animation: rotateTheCube 5s linear infinite;
+    }
+
+    @keyframes rotateTheCube {
+      from {
+        transform: rotateX(180deg) rotateY(90deg) rotateZ(0deg);
+      }
+      to {
+        transform: rotateX(360deg) rotateY(180deg) rotateZ(0deg);
+      }
     }
 
     .rotateCube {
