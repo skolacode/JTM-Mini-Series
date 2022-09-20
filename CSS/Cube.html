@@ -9,10 +9,20 @@
   <!-- initernal style -->
   <style>
 
+    .container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      height: 110vh;
+    }
+
     .cube {
       display: flex;
       border: 1px solid #c2c2c2;
       width: 306px;
+
+      position: absolute;
     }
 
     .eachBlock {
@@ -43,8 +53,8 @@
   </style>
 </head>
 <body>
-  <h1>We are gonna build a cube</h1>
 
+  <div class="container">
   <!-- 
 
     1. Cube have 6 sides
@@ -53,148 +63,148 @@
    -->
 
    <!-- Front -->
-   <div class="cube">
+   <div class="cube frontFaceBlock">
       <!-- row 1 -->
       <div>
-        <div class="eachBlock frontFaceBlock"></div>
-        <div class="eachBlock frontFaceBlock"></div>
-        <div class="eachBlock frontFaceBlock"></div>
+        <div class="eachBlock"></div>
+        <div class="eachBlock"></div>
+        <div class="eachBlock"></div>
       </div>
 
       <!-- row 2 -->
       <div>
-        <div class="eachBlock frontFaceBlock"></div>
-        <div class="eachBlock frontFaceBlock"></div>
-        <div class="eachBlock frontFaceBlock"></div>
+        <div class="eachBlock"></div>
+        <div class="eachBlock"></div>
+        <div class="eachBlock"></div>
       </div>
 
       <!-- row 3 -->
       <div>
-        <div class="eachBlock frontFaceBlock"></div>
-        <div class="eachBlock frontFaceBlock"></div>
-        <div class="eachBlock frontFaceBlock"></div>
+        <div class="eachBlock"></div>
+        <div class="eachBlock"></div>
+        <div class="eachBlock"></div>
       </div>
    </div>
 
     <!-- Back -->
-    <div class="cube">
+    <div class="cube backFaceBlock">
       <!-- row 1 -->
       <div>
-        <div class="eachBlock backFaceBlock"></div>
-        <div class="eachBlock backFaceBlock"></div>
-        <div class="eachBlock backFaceBlock"></div>
+        <div class="eachBlock"></div>
+        <div class="eachBlock"></div>
+        <div class="eachBlock"></div>
       </div>
 
       <!-- row 2 -->
       <div>
-        <div class="eachBlock backFaceBlock"></div>
-        <div class="eachBlock backFaceBlock"></div>
-        <div class="eachBlock backFaceBlock"></div>
+        <div class="eachBlock"></div>
+        <div class="eachBlock"></div>
+        <div class="eachBlock"></div>
       </div>
 
       <!-- row 3 -->
       <div>
-        <div class="eachBlock backFaceBlock"></div>
-        <div class="eachBlock backFaceBlock"></div>
-        <div class="eachBlock backFaceBlock"></div>
+        <div class="eachBlock"></div>
+        <div class="eachBlock"></div>
+        <div class="eachBlock"></div>
       </div>
-   </div>
+    </div>
 
     <!-- Right -->
-    <div class="cube">
+    <div class="cube rightFaceBlock">
       <!-- row 1 -->
       <div>
-        <div class="eachBlock rightFaceBlock"></div>
-        <div class="eachBlock rightFaceBlock"></div>
-        <div class="eachBlock rightFaceBlock"></div>
+        <div class="eachBlock"></div>
+        <div class="eachBlock"></div>
+        <div class="eachBlock"></div>
       </div>
 
       <!-- row 2 -->
       <div>
-        <div class="eachBlock rightFaceBlock"></div>
-        <div class="eachBlock rightFaceBlock"></div>
-        <div class="eachBlock rightFaceBlock"></div>
+        <div class="eachBlock"></div>
+        <div class="eachBlock"></div>
+        <div class="eachBlock"></div>
       </div>
 
       <!-- row 3 -->
       <div>
-        <div class="eachBlock rightFaceBlock"></div>
-        <div class="eachBlock rightFaceBlock"></div>
-        <div class="eachBlock rightFaceBlock"></div>
+        <div class="eachBlock"></div>
+        <div class="eachBlock"></div>
+        <div class="eachBlock"></div>
       </div>
-   </div>
+    </div>
 
     <!-- Left -->
-    <div class="cube">
+    <div class="cube leftFaceBlock">
       <!-- row 1 -->
       <div>
-        <div class="eachBlock leftFaceBlock"></div>
-        <div class="eachBlock leftFaceBlock"></div>
-        <div class="eachBlock leftFaceBlock"></div>
+        <div class="eachBlock"></div>
+        <div class="eachBlock"></div>
+        <div class="eachBlock"></div>
       </div>
 
       <!-- row 2 -->
       <div>
-        <div class="eachBlock leftFaceBlock"></div>
-        <div class="eachBlock leftFaceBlock"></div>
-        <div class="eachBlock leftFaceBlock"></div>
+        <div class="eachBlock"></div>
+        <div class="eachBlock"></div>
+        <div class="eachBlock"></div>
       </div>
 
       <!-- row 3 -->
       <div>
-        <div class="eachBlock leftFaceBlock"></div>
-        <div class="eachBlock leftFaceBlock"></div>
-        <div class="eachBlock leftFaceBlock"></div>
+        <div class="eachBlock"></div>
+        <div class="eachBlock"></div>
+        <div class="eachBlock"></div>
       </div>
-   </div>
+    </div>
 
     <!-- Top -->
-    <div class="cube">
+    <div class="cube topFaceBlock">
       <!-- row 1 -->
       <div>
-        <div class="eachBlock topFaceBlock"></div>
-        <div class="eachBlock topFaceBlock"></div>
-        <div class="eachBlock topFaceBlock"></div>
+        <div class="eachBlock"></div>
+        <div class="eachBlock"></div>
+        <div class="eachBlock"></div>
       </div>
 
       <!-- row 2 -->
       <div>
-        <div class="eachBlock topFaceBlock"></div>
-        <div class="eachBlock topFaceBlock"></div>
-        <div class="eachBlock topFaceBlock"></div>
+        <div class="eachBlock"></div>
+        <div class="eachBlock"></div>
+        <div class="eachBlock"></div>
       </div>
 
       <!-- row 3 -->
       <div>
-        <div class="eachBlock topFaceBlock"></div>
-        <div class="eachBlock topFaceBlock"></div>
-        <div class="eachBlock topFaceBlock"></div>
+        <div class="eachBlock"></div>
+        <div class="eachBlock"></div>
+        <div class="eachBlock"></div>
       </div>
-   </div>
+    </div>
 
     <!-- Bottom -->
-    <div class="cube">
+    <div class="cube bottomFaceBlock">
       <!-- row 1 -->
       <div>
-        <div class="eachBlock bottomFaceBlock"></div>
-        <div class="eachBlock bottomFaceBlock"></div>
-        <div class="eachBlock bottomFaceBlock"></div>
+        <div class="eachBlock"></div>
+        <div class="eachBlock"></div>
+        <div class="eachBlock"></div>
       </div>
 
       <!-- row 2 -->
       <div>
-        <div class="eachBlock bottomFaceBlock"></div>
-        <div class="eachBlock bottomFaceBlock"></div>
-        <div class="eachBlock bottomFaceBlock"></div>
+        <div class="eachBlock"></div>
+        <div class="eachBlock"></div>
+        <div class="eachBlock"></div>
       </div>
 
       <!-- row 3 -->
       <div>
-        <div class="eachBlock bottomFaceBlock"></div>
-        <div class="eachBlock bottomFaceBlock"></div>
-        <div class="eachBlock bottomFaceBlock"></div>
+        <div class="eachBlock"></div>
+        <div class="eachBlock"></div>
+        <div class="eachBlock"></div>
       </div>
-   </div>
+    </div>
   </div>
 </body>
 </html>
